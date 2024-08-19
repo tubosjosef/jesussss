@@ -1,167 +1,77 @@
+
+import url("header.css");
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para os links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para os botões */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+header {
+  background-color: #222;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+/* Estilo do logo no cabeçalho */
+header .logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Meu Site</div>
+    </header>
+    <main>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>Este é um exemplo de como estruturar seus arquivos CSS.</p>
+        <button>Saiba Mais</button>
+    </main>
 </body>
-:root {
-    --cor-de-fundo: #EBECEE;
-}
-body {
-    background-color: var(--cor-de-fundo);
-}
-h1 {
-    background-color: white;
-}
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}</html>
-:root {
-    --cor-de-fundo: #EBECEE;
-}
-
-body {
-    background-color: var(--cor-de-fundo);
-}
-
-h1 {
-    background-color: white;
-}
-}
-@import url("styles/header.css");
-<header class="cabeçalho">
-    <div class="container">
-        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-        <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
-    </div>
-    <div class="container">
-        <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
-        <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
-        <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
-    </div>
-</header>
-
+</html>
